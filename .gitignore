@@ -1,0 +1,71 @@
+# JUCE specific .gitignore
+
+# Projucer/JUCE generated files
+.DS_Store
+.jucer
+.settings
+Builds/
+*.jucer
+
+# Xcode
+*.xcodeproj/
+*.xcworkspace/
+
+# Visual Studio
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
+# Compiled output
+*.o
+*.obj
+*.jucer*
+
+# macOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows thumbnail cache files
+Thumbs.db
+ehthumbs.db
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+
+# Compiled Static libraries
+*.a
+
+# Android specific
+local.properties
+.gradle
+/build/
+
+# IntelliJ IDEA
+.idea/
+
+# Eclipse
+.cproject
+.project
+.settings/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# TextMate
+*.tmproj
+*.tmproject
+tmtags
+
+# Visual Studio Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Clion
+.idea
+
